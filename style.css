@@ -83,8 +83,8 @@ a:hover {
 
 /* ---- Hero Section ---- */
 #hero {
-    /* UPDATED: Howl's Moving Castle themed image */
-    background-image: url('https://images.unsplash.com/photo-1549247716-bf1059fbf618?q=80&w=2070');
+    /* UPDATED: New, cuter Ghibli-esque background image */
+    background-image: url('https://images.unsplash.com/photo-1594736937992-a131b78c4393?q=80&w=1974');
     background-size: cover;
     background-position: center;
     color: white;
@@ -101,31 +101,6 @@ a:hover {
 #hero p {
     font-size: 1.2em;
     text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
-}
-
-/* ---- Projects Section ---- */
-.project-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 30px;
-    margin-top: 30px;
-}
-
-.card {
-    background-color: var(--card-bg);
-    border-radius: 8px;
-    padding: 30px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-}
-
-.card h3 {
-    margin-bottom: 15px;
 }
 
 /* ---- Contact Section ---- */
