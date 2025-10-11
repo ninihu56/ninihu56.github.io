@@ -83,7 +83,8 @@ a:hover {
 
 /* ---- Hero Section ---- */
 #hero {
-    background-image: url('https://images.unsplash.com/photo-1500534623283-312aade485b7?q=80&w=2070'); /* Replace with a Ghibli-esque landscape photo */
+    /* UPDATED: Howl's Moving Castle themed image */
+    background-image: url('https://images.unsplash.com/photo-1549247716-bf1059fbf618?q=80&w=2070');
     background-size: cover;
     background-position: center;
     color: white;
