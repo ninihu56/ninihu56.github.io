@@ -132,3 +132,15 @@ footer {
     border-top: 1px solid #ddd;
     font-size: 0.9em;
 }
+/* ---- Hero Illustration Styling ---- */
+.hero-illustration {
+    max-width: 600px; /* Adjust as needed */
+    width: 100%; /* Ensures it's responsive */
+    height: auto;
+    margin-top: 40px; /* Space above the image */
+    border-radius: 10px; /* Soften corners */
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* Subtle shadow for depth */
+    display: block; /* Centers the image */
+    margin-left: auto;
+    margin-right: auto;
+}
